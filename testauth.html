@@ -18,12 +18,12 @@
         </div>
         <script src="https://signuporgtest1623409879101-dev-ed.lightning.localhost.sfdcdev.force.com:6101/lightning/lightning.out.js"></script>
         <script>
-            $Lightning.use("c:TestSim.app",            // name of the Lightning app
+            $Lightning.use("c:testsim",            // name of the Lightning app
                 function() {                  // Callback once framework and app loaded
                     debugger;
                     console.log("callback for $Lightning.use");
                     $Lightning.createComponent(
-                        "c:HelloWorld",
+                        "c:helloworld",
                         {},
                         "innerContent",
                         function(cmp){
